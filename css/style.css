@@ -193,6 +193,11 @@ footer img{
     background-color: var(--fundo2);
     border-radius: 10px;
 }
+.bio img{
+    width: 40%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
 
 .idioma{
     padding-bottom: 40px;
@@ -293,5 +298,8 @@ footer img{
     .bio{
         width: 100%;
         box-sizing: border-box;
+    }
+    .bio img{
+        width: 30%;
     }
 }
